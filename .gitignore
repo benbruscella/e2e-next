@@ -1,0 +1,93 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+.idea
+nbproject
+Thumbs.db
+
+# NPM packages folder.
+node_modules/
+
+# Yarn
+yarn-error.log
+
+# temporary files.
+tmp/
+
+# output folder
+public/
+
+# dist for debugging
+dist/
+
+# Bower stuff.
+bower_components/
+
+# Karma reporter output.
+test_out/
+
+# Vim stuff.
+*.sw*
+tags
+*.sublime-workspace
+*.sublime-project
+.elasticbeanstalk/
+
+# schema
+db/schema.sql
+db/dumps/*.sql
+db/dumps/*.sql.zip
+
+# local configuration (containing api keys and other config items)
+.config-local.json
+config-DEMO.json
+config-prod-like.json
+config-PRODUCTION.json
+.config-DEVELOPMENT.json
+.config-PRODUCTION.json
+
+# vagrant files
+Vagrantfile
+.vagrant
+
+# Xero Certificates
+/certs/*.pem
+
+#Visual Studio
+*.csproj
+obj/
+
+# database snapshots
+db/dumps/*.dump
+
+TESTS-*.xml
+
+api/log/*.html
+logs/*
+
+.version
+
+.vscode
+
+tsconfig.json
+
+typings
+db/scripts/baseline.sql.bak
+
+# decaffeinate config
+bulk-decaffeinate.config.js
